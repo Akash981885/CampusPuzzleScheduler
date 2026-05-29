@@ -1,0 +1,1 @@
+"""Campus Puzzle Scheduler package."""

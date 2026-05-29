@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "project": "Campus Puzzle Scheduler",
+    "source_notes": "Rooms and staff names are based on the supplied tentative schedule spreadsheet. Class data is a representative M603 scheduling scenario and can be replaced without code changes."
+  },
+  "time_slots": [
+    {"id": "MON-09", "day": "Monday", "start": "09:00", "end": "12:00"},
+    {"id": "MON-13", "day": "Monday", "start": "13:00", "end": "16:00"},
+    {"id": "MON-16", "day": "Monday", "start": "16:00", "end": "19:00"},
+    {"id": "TUE-09", "day": "Tuesday", "start": "09:00", "end": "12:00"},
+    {"id": "TUE-13", "day": "Tuesday", "start": "13:00", "end": "16:00"},
+    {"id": "TUE-16", "day": "Tuesday", "start": "16:00", "end": "19:00"},
+    {"id": "WED-09", "day": "Wednesday", "start": "09:00", "end": "12:00"},
+    {"id": "WED-13", "day": "Wednesday", "start": "13:00", "end": "16:00"},
+    {"id": "WED-16", "day": "Wednesday", "start": "16:00", "end": "19:00"},
+    {"id": "THU-09", "day": "Thursday", "start": "09:00", "end": "12:00"},
+    {"id": "THU-13", "day": "Thursday", "start": "13:00", "end": "16:00"},
+    {"id": "FRI-09", "day": "Friday", "start": "09:00", "end": "12:00"},
+    {"id": "FRI-13", "day": "Friday", "start": "13:00", "end": "16:00"}
+  ],
+  "rooms": [
+    {"id": "D003", "campus": "Berlin", "capacity": 46},
+    {"id": "D004", "campus": "Berlin", "capacity": 77},
+    {"id": "D005", "campus": "Berlin", "capacity": 34},
+    {"id": "D104", "campus": "Berlin", "capacity": 36},
+    {"id": "D105", "campus": "Berlin", "capacity": 31},
+    {"id": "D207", "campus": "Berlin", "capacity": 22},
+    {"id": "D208", "campus": "Berlin", "capacity": 41},
+    {"id": "D303", "campus": "Berlin", "capacity": 37},
+    {"id": "D304", "campus": "Berlin", "capacity": 53},
+    {"id": "D305", "campus": "Berlin", "capacity": 42},
+    {"id": "P-3", "campus": "Potsdam", "capacity": 35},
+    {"id": "P-6", "campus": "Potsdam", "capacity": 50},
+    {"id": "P-7", "campus": "Potsdam", "capacity": 36},
+    {"id": "P-8", "campus": "Potsdam", "capacity": 36},
+    {"id": "P-9", "campus": "Potsdam", "capacity": 23},
+    {"id": "P-10", "campus": "Potsdam", "capacity": 34},
+    {"id": "P-11", "campus": "Potsdam", "capacity": 30},
+    {"id": "P-12", "campus": "Potsdam", "capacity": 36},
+    {"id": "P-AUD", "campus": "Potsdam", "capacity": 60},
+    {"id": "P-MAC", "campus": "Potsdam", "capacity": 25}
+  ],
+  "classes": [
+    {"id": "M603-W01-A", "title": "Introduction to Algorithms", "professor": "Reza", "students": 72, "groups": ["MSc-CS-A", "MSc-DS-A"]},
+    {"id": "M603-W01-B", "title": "Complexity Analysis Lab", "professor": "Reza", "students": 38, "groups": ["MSc-CS-B"]},
+    {"id": "M603-W02-A", "title": "Data Structures I", "professor": "Michael Brown", "students": 54, "groups": ["MSc-CS-A"]},
+    {"id": "M603-W02-B", "title": "Data Structures I Lab", "professor": "Charlotte Green", "students": 32, "groups": ["MSc-CS-B"]},
+    {"id": "M603-W03-A", "title": "Hash Tables and Heaps", "professor": "Parisa", "students": 47, "groups": ["MSc-DS-A"]},
+    {"id": "M603-W03-B", "title": "Assessment Clinic 1", "professor": "Parisa", "students": 27, "groups": ["MSc-CS-B", "MSc-DS-B"]},
+    {"id": "M603-W04-A", "title": "Search Algorithms", "professor": "Bilal", "students": 63, "groups": ["MSc-CS-A", "MSc-DS-B"]},
+    {"id": "M603-W04-B", "title": "Sorting Algorithms Lab", "professor": "Bilal", "students": 41, "groups": ["MSc-CS-B"]},
+    {"id": "M603-W05-A", "title": "Trees and Traversal", "professor": "Leila", "students": 49, "groups": ["MSc-CS-A"]},
+    {"id": "M603-W05-B", "title": "Assessment Clinic 2", "professor": "Leila", "students": 36, "groups": ["MSc-DS-A"]},
+    {"id": "M603-W06-A", "title": "Graph Traversal", "professor": "Omar", "students": 58, "groups": ["MSc-CS-B", "MSc-DS-A"]},
+    {"id": "M603-W06-B", "title": "Shortest Paths Lab", "professor": "Omar", "students": 29, "groups": ["MSc-DS-B"]},
+    {"id": "M603-W07-A", "title": "Greedy Algorithms", "professor": "Rebecca", "students": 52, "groups": ["MSc-CS-A", "MSc-DS-B"]},
+    {"id": "M603-W07-B", "title": "Assessment Clinic 3", "professor": "Rebecca", "students": 24, "groups": ["MSc-CS-B"]},
+    {"id": "M603-W08-A", "title": "Dynamic Programming", "professor": "Hamid", "students": 66, "groups": ["MSc-CS-A", "MSc-DS-A"]},
+    {"id": "M603-W08-B", "title": "DP Implementation Lab", "professor": "Hamid", "students": 35, "groups": ["MSc-CS-B"]},
+    {"id": "M603-W09-A", "title": "Backtracking", "professor": "Viktoria", "students": 44, "groups": ["MSc-DS-A", "MSc-DS-B"]},
+    {"id": "M603-W09-B", "title": "Final Project Workshop", "professor": "Viktoria", "students": 30, "groups": ["MSc-CS-A", "MSc-CS-B"]}
+  ],
+  "student_groups": {
+    "MSc-CS-A": ["M603-W01-A", "M603-W02-A", "M603-W04-A", "M603-W05-A", "M603-W07-A", "M603-W08-A", "M603-W09-B"],
+    "MSc-CS-B": ["M603-W01-B", "M603-W02-B", "M603-W03-B", "M603-W04-B", "M603-W06-A", "M603-W07-B", "M603-W08-B", "M603-W09-B"],
+    "MSc-DS-A": ["M603-W01-A", "M603-W03-A", "M603-W05-B", "M603-W06-A", "M603-W08-A", "M603-W09-A"],
+    "MSc-DS-B": ["M603-W03-B", "M603-W04-A", "M603-W06-B", "M603-W07-A", "M603-W09-A"]
+  }
+}
