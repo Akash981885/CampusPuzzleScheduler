@@ -3,6 +3,15 @@
     "project": "Campus Puzzle Scheduler",
     "source_notes": "Rooms and staff names are based on the supplied tentative schedule spreadsheet. Class data is a representative M603 scheduling scenario and can be replaced without code changes."
   },
+  "constraints": {
+    "no_overlap_groups": true,
+    "no_room_double_booking": true,
+    "respect_capacity": true
+  },
+  "professors": [
+    {"id": "P1", "name": "Reza"},
+    {"id": "P2", "name": "Michael Brown"}
+  ],
   "time_slots": [
     {"id": "MON-09", "day": "Monday", "start": "09:00", "end": "12:00"},
     {"id": "MON-13", "day": "Monday", "start": "13:00", "end": "16:00"},
